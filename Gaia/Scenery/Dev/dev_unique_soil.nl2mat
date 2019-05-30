@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <material>
+    <preview>dev_diffuse.png</preview>
+    <renderpass>
+      <shadercore>Result = Lerp(Tex0.a, Color, 1);
+Metallic = 0;
+Smoothness = Lerp(Tex0.a, 0.1, 0.95);</shadercore>
+      <transparency mode="opaque"/>
+      <linearshading/>
+      <custommaterial>
+        <diffuse r="0.545098" g="0.466667" b="0.403922"/>
+        <ambient r="0.545098" g="0.466667" b="0.403922"/>
+      </custommaterial>
+      <reflection fresnelconst="0" fresnelvar="0.4"/>
+      <rgbgen mode="lighting"/>
+      <texunit>
+        <map>dev_diffuse.png</map>
+        <tcgen mode="base"/>
+      </texunit>
+    </renderpass>
+    <footstepsounds>
+      <footstepsound>intern:data/sounds/walk/grass1.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/grass2.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/grass3.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/grass4.wav</footstepsound>
+    </footstepsounds>
+  </material>
+</root>

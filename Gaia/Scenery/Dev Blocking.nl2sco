@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <sceneobject>
+    <model path="Dev/blocking.dae"/>
+    <preview>Dev/dev_diffuse.png</preview>
+    <param allowrot="false"/>
+    <param allowscale="false"/>
+    <materialpath name="Dev Dark">Dev/Dev Dark.nl2mat</materialpath>
+    <materialpath name="Dev Diffuse">Dev/Dev Diffuse.nl2mat</materialpath>
+    <materialpath name="Dev Soil">Dev/dev_unique_soil.nl2mat</materialpath>
+  </sceneobject>
+</root>

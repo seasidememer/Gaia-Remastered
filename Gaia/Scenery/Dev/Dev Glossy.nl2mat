@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <material>
+    <preview>dev_glossy.png</preview>
+    <renderpass>
+      <shadercore>Result = Tex0;
+Metallic = 0;
+Smoothness = Lerp(Tex0.a, 0.8, 0.95);</shadercore>
+      <transparency mode="opaque"/>
+      <linearshading/>
+      <reflection fresnelconst="0" fresnelvar="0.4"/>
+      <rgbgen mode="lighting"/>
+      <texunit>
+        <map>dev_glossy.png</map>
+        <tcgen mode="base"/>
+      </texunit>
+    </renderpass>
+    <footstepsounds>
+      <footstepsound>intern:data/sounds/walk/metal1.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/metal2.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/metal3.wav</footstepsound>
+      <footstepsound>intern:data/sounds/walk/metal4.wav</footstepsound>
+    </footstepsounds>
+  </material>
+</root>
