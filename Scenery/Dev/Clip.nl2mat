@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <material>
+    <description>Clipping texture (invisible but solid)</description>
+    <renderpass>
+      <transparency mode="fade"/>
+      <blend srcfactor="srcalpha" dstfactor="oneminussrcalpha"/>
+      <linearshading/>
+      <alphagen mode="const" a="0.1"/>
+      <rgbgen mode="const" r="1" g="0" b="0"/>
+    </renderpass>
+    <option norender="true"/>
+    <option nofog="true"/>
+    <option noshadowcast="true"/>
+    <option noshadowreceive="true"/>
+  </material>
+</root>
